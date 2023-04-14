@@ -1,3 +1,23 @@
+/* Header Section */
+
+    /* Mobile Device */
+    @media only screen and (max-width: 850px){
+        .navbar{
+            padding: 0;
+        }
+        .logo{
+            top: 30px;
+            position: absolute;
+            left: 30px;
+        }
+    }
+    /* Mobile Device */
+
+/* Header Section */
+
+
+
+
 
 /* Footer section */
 

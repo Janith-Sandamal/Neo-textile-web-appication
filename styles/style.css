@@ -7,6 +7,101 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header Section */
+ header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/Home\ Background.jpg);
+    background-size: cover;
+    background-position: bottom;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+
+ }
+
+ /* Remove underline in all anchor tag  */
+  a {
+    text-decoration: none; 
+
+ }
+
+ .header-content {
+    margin-bottom: 150px;
+    color:azure;
+    text-align: center;
+ }
+
+ .header-content h2 {
+    font-size: 3vmin;
+    margin-bottom: 1rem;
+ }
+
+ .line {
+    height: 4px;
+    width: 150px;
+    background: #f7ec20;
+    margin: 10px auto;
+    border-radius: 5px;
+ }
+
+ .header-content h1 {
+    font-size: 7vmin;
+    margin-bottom: 30px;
+    margin-top: 50px;
+ }
+
+ .info {
+    background: #f7ec20;
+    padding: 8px 15px;
+    border-radius: 30px;
+    color: azure;
+ }
+
+    /* Navbar */
+
+    .navbar {
+        width: 100%;
+        padding: 20px;
+        top: 0;
+        left: 0;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        color : azure;
+    }
+
+    /* Navbar Unorder list embeded links */
+    .nav-links {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        /* width: 40%; */
+    }
+
+    .nav-links li {
+        
+        margin-right: 0 30px;
+    }
+
+
+
+    ul {
+        
+        list-style: none;
+    }
+
+    /* Navbar */
+
+ .selected {
+    background: #f7ec20;
+    text-decoration: underline;
+    font-weight: bold;
+    
+ }
+
+/* Header Section */
+
 
 /* Footer section */
 .footer-container{
@@ -17,7 +112,7 @@
 .footer {
     width : 80%;
     height: 40vh;
-    bacjground-color: #414141;
+    background-color: #414141;
     color: #fff;
     display: flex;
     justify-content: center;
