@@ -1,0 +1,31 @@
+
+/* Footer section */
+
+@media screen and (max-width: 1150px){
+    .footer{
+        height: 30vh;
+
+    }
+    .footer-email-form{
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .footer{
+        height: 60vh;
+        padding-top: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 720px){
+    .footer-3{
+       display: none;
+    }
+    .footer-email-form{
+        margin-top: 2rem;
+    }
+}
+
+/* Footer section */
