@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <!-- Responsive style sheet  -->
     <link rel="stylesheet" href="styles/responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <title>Ceylon Textile Suppliers | Home</title>
 </head>
@@ -32,10 +33,6 @@
         </label>
     </nav>
     
-    <div class="container">
-        <img src="https://picsum.photos/id/559/1000/1000" alt="">
-        <img src="https://picsum.photos/id/558/1000/1000" alt="">
-    </div>
     <!-- Navbar -->
 
 <!-- Header section  -->
@@ -43,9 +40,80 @@
 
 
 <!-- Home Banner -->
-<div class="home-banner">
-    <br>
-    <br>
+<div class="slider">
+    <input type="radio" name="slide" id="slide-1" checked>
+    <input type="radio" name="slide" id="slide-2">
+    <input type="radio" name="slide" id="slide-3">
+    <input type="radio" name="slide" id="slide-4">
+
+    <div class="slides">
+        <div class="slide slide-1">
+            <div class="slide-data">
+                <h1>THIS IS SLIDE # 1</h1>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam nemo assumenda perferendis
+                    reprehenderit ex nostrum accusantium sed iste eius distinctio mollitia consectetur, nihil quis
+                    ea cupiditate ullam itaque reiciendis ratione.</P>
+                <button>SUBSCRIBE</button>
+            </div>
+        </div>
+        <div class="slide slide-2">
+            <div class="slide-data">
+                <h1>THIS IS SLIDE # 2</h1>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam nemo assumenda perferendis
+                    reprehenderit ex nostrum accusantium sed iste eius distinctio mollitia consectetur, nihil quis
+                    ea cupiditate ullam itaque reiciendis ratione.</P>
+                <button>COMMENT</button>
+            </div>
+        </div>
+        <div class="slide slide-3">
+            <div class="slide-data">
+                <h1>THIS IS SLIDE # 3</h1>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam nemo assumenda perferendis
+                    reprehenderit ex nostrum accusantium sed iste eius distinctio mollitia consectetur, nihil quis
+                    ea cupiditate ullam itaque reiciendis ratione.</P>
+                <button>SHARE</button>
+            </div>
+        </div>
+        <div class="slide slide-4">
+            <div class="slide-data">
+                <h1>THIS IS SLIDE # 3</h1>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam nemo assumenda perferendis
+                    reprehenderit ex nostrum accusantium sed iste eius distinctio mollitia consectetur, nihil quis
+                    ea cupiditate ullam itaque reiciendis ratione.</P>
+                <button>SHARE</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="arrows arrow-left">
+        <label for="slide-3">
+            <span><i class="fas fa-angle-left"></i></span>
+        </label>
+        <label for="slide-1">
+            <span><i class="fas fa-angle-left"></i></span>
+        </label>
+        <label for="slide-2">
+            <span><i class="fas fa-angle-left"></i></span>
+        </label>
+    </div>
+
+    <div class="arrows arrow-right">
+        <label for="slide-2">
+            <span><i class="fas fa-angle-right"></i></span>
+        </label>
+        <label for="slide-3">
+            <span><i class="fas fa-angle-right"></i></span>
+        </label>
+        <label for="slide-1">
+            <span><i class="fas fa-angle-right"></i></span>
+        </label>
+    </div>
+
+    <div class="dots">
+        <label for="slide-1"></label>
+        <label for="slide-2"></label>
+        <label for="slide-3"></label>
+    </div>
 </div>
 <!-- Home Banner -->
 
