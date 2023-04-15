@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to the style.css stylesheet -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Responsive style sheet  -->
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <title>Ceylon Textile | Apply for a Job </title>
+</head>
+<body>
+<!-- Header section  -->
+
+    <!-- Navbar -->
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo"><strong>Ceylon</strong> Textile Suppliers</div>
+        <ul class="links">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="#apply" class="active">Apply</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">Contact</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+
+    <!-- Navbar -->
+
+<!-- Header section  -->
+
+
+
+<!-- Home Banner -->
+<form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+    <label for="jobRef">Job reference number:</label>
+    <input type="text" id="jobRef" name="jobRef" pattern="[a-zA-Z0-9]{5}" required>
+    <br>
+  
+    <label for="firstName">First name:</label>
+    <input type="text" id="firstName" name="firstName" maxlength="20" pattern="[a-zA-Z]+" required>
+    <br>
+  
+    <label for="lastName">Last name:</label>
+    <input type="text" id="lastName" name="lastName" maxlength="20" pattern="[a-zA-Z]+" required>
+    <br>
+  
+    <label for="dob">Date of birth:</label>
+    <input type="text" id="dob" name="dob" pattern="^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/[0-9]{4}$" required>
+    <br>
+  
+    <fieldset>
+      <legend>Gender:</legend>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <br>
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <br>
+      <label for="other">Other</label>
+      <input type="radio" id="other" name="gender" value="other" required>
+      <br>
+    </fieldset>
+  
+    <label for="streetAddress">Street Address:</label>
+    <input type="text" id="streetAddress" name="streetAddress" maxlength="40" required>
+    <br>
+  
+    <label for="suburbTown">Suburb/town:</label>
+    <input type="text" id="suburbTown" name="suburbTown" maxlength="40" required>
+    <br>
+  
+    <label for="state">State:</label>
+    <select id="state" name="state" required>
+      <option value="">Select state</option>
+      <option value="VIC">VIC</option>
+      <option value="NSW">NSW</option>
+      <option value="QLD">QLD</option>
+      <option value="NT">NT</option>
+      <option value="WA">WA</option>
+      <option value="SA">SA</option>
+      <option value="TAS">TAS</option>
+      <option value="ACT">ACT</option>
+    </select>
+    <br>
+  
+    <label for="postcode">Postcode:</label>
+    <input type="text" id="postcode" name="postcode" pattern="[0-9]{4}" required>
+    <br>
+  
+    <label for="phone">Phone number:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9\s]{8,12}" required>
+    <br>
+  
+    <label for="email">Email address:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+  
+    <label for="skillList">Skills:</label>
+    <select id="skillList" name="skillList[]" multiple required>
+      <option value="Java">Java</option>
+      <option value="Python">Python</option>
+      <option value="JavaScript">JavaScript</option>
+      <option value="SQL">SQL</option>
+      <option value="C#">C#</option>
+      <option value="Other">Other skills...</option>
+    </select>
+    <br>
+  <label for="otherSkills">Other skills:</label>
+  
+    <textarea id="otherSkills" name="otherSkills"></textarea>
+    <br>
+  <label for="agree">I agree to the terms and conditions:</label>
+  <input type="checkbox" id="agree" name="agree" value="yes" required>
+  <br>
+  
+    <input type="submit" value="Apply">
+  </form>
+
+  
+<!-- Home Banner -->
+
+
+
+
+<!-- Footer section  -->
+
+<section class="footer-distributed">
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3>Ceylone<span>Textile</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                |
+                <a href="#">About</a>
+                |
+                <a href="#">Contact</a>
+                |
+                <a href="#">Blog</a>
+            </p>
+
+            <p class="footer-company-name">Copyright © 2023 <strong>Ceylone Textile Suppliers</strong> All rights reserved</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Newzelend</span>
+                    Awecklend</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 74**9**258</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:contact.ceylonetextileshop@gmail.com">contact.ceylonetextileshop@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                <strong>Ceylon Textile Suppliers</strong> , an Australian owned organization based in Melbourne which supplies clothing 
+                related products to Australian and New Zealand retail outlets on a sale or return basis
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</section>
+<!-- Footer section  -->
+
+</body>
+</html>
