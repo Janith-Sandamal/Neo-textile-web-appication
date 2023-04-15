@@ -4,101 +4,87 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 
 /* Header Section */
- header{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(images/Home\ Background.jpg);
-    background-size: cover;
-    background-position: bottom;
-    justify-content: center;
-    display: flex;
-    align-items: flex-end;
 
- }
+.container {
+	position: relative;
+	margin-top: 100px;
+}
+.container img {
+	display: block;
+	width: 100%;
+}
+nav {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 5%;
+	height: 100px;
+	background-color: #414141;
+}
+nav .logo {
+	float: left;
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	color: #fff;
+}
+nav .links {
+	float: right;
+	padding: 0;
+	margin: 0;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+nav .links li {
+	list-style: none;
+}
+nav .links a {
+	display: block;
+	padding: 1em;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+#nav-toggle {
+	position: absolute;
+	top: -100px;
+}
+nav .icon-burger {
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+nav .icon-burger .line {
+	width: 30px;
+	height: 5px;
+	background-color: #fff;
+	margin: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
 
+ 
  /* Remove underline in all anchor tag  */
   a {
     text-decoration: none; 
 
  }
 
- .header-content {
-    margin-bottom: 150px;
-    color:azure;
-    text-align: center;
- }
-
- .header-content h2 {
-    font-size: 3vmin;
-    margin-bottom: 1rem;
- }
-
- .line {
-    height: 4px;
-    width: 150px;
-    background: #f7ec20;
-    margin: 10px auto;
-    border-radius: 5px;
- }
-
- .header-content h1 {
-    font-size: 7vmin;
-    margin-bottom: 30px;
-    margin-top: 50px;
- }
-
- .info {
-    background: #f7ec20;
-    padding: 8px 15px;
-    border-radius: 30px;
-    color: azure;
- }
-
-    /* Navbar */
-
-    .navbar {
-        width: 100%;
-        padding: 20px;
-        top: 0;
-        left: 0;
-        position: absolute;
-        display: flex;
-        justify-content: space-between;
-        color : azure;
-    }
-
-    /* Navbar Unorder list embeded links */
-    .nav-links {
-        display: flex;
-        /* justify-content: space-between; */
-        align-items: center;
-        /* width: 40%; */
-    }
-
-    .nav-links li {
-        
-        margin-right: 0 30px;
-    }
-
-
-
-    ul {
-        
-        list-style: none;
-    }
-
-    /* Navbar */
-
- .selected {
-    background: #f7ec20;
-    text-decoration: underline;
-    font-weight: bold;
-    
- }
 
 /* Header Section */
 
