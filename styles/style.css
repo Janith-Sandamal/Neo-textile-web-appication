@@ -83,17 +83,6 @@ a {
   color: var(--color-primary);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-bottom: 1rem;
-}
-
-
 /* Set default styles for layout */
 .container {
   max-width: 1200px;
@@ -221,9 +210,15 @@ form button {
 
 /* Header Section */
 
-.container {
-  position: relative;
-  margin-top: 100px;
+/* Styles for desktop devices */
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 1rem;
 }
 
 .container img {
@@ -300,14 +295,6 @@ nav .icon-burger .line {
 }
 
 
-/* Remove underline in all anchor tag  */
-a {
-  text-decoration: none;
-
-}
-
-
-/* Header Section */
 
 /* Home Banner slider */
 .slider {
