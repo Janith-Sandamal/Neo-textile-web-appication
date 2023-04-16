@@ -374,6 +374,9 @@ nav .icon-burger .line {
     transform: scale(1.03);
 }
 
+.job-card button {
+    width: 100%;
+}
 
 .jt-1{
     background: url(./images/marketing-manager.webp);
@@ -398,6 +401,10 @@ nav .icon-burger .line {
     height: 200px;
     width: 100%;
     border-radius: 5px;
+}
+
+.job-content-col{
+    gap: 30px;
 }
 
 .job-content{
