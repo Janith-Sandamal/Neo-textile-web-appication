@@ -45,6 +45,10 @@
         .row {
             flex-direction: column;
         }
+
+        .reversed-row{
+            flex-direction: column-reverse;
+        }
         
         
     }
