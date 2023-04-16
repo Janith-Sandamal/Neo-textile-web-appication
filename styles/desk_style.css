@@ -57,10 +57,12 @@ h4 {
 
 h5 {
     font-family: var(--typography-primary-font-family);
-    font-weight: 700;
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
     line-height: 1.5rem;
-    color: var(--color-primary);
+    color: var(--color-secondary);
+    border-bottom: 3px solid var(--color-primary);
+    padding-bottom: 10px;
 }
 
 h6 {
