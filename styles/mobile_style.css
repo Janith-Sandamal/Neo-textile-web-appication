@@ -40,5 +40,10 @@
         nav :checked ~ .icon-burger .line:nth-child(2) {
             opacity: 0;
         }
+
+        .row {
+            flex-direction: column;
+        }
+        
         
     }

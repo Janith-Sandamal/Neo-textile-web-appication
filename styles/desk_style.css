@@ -36,7 +36,7 @@ h2 {
     font-weight: 700;
     font-size: 2rem;
     line-height: 2.5rem;
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 h3 {
@@ -88,6 +88,11 @@ a {
     color: var(--color-primary);
 }
 
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
 
 /* Set default styles for layout */
 
@@ -101,15 +106,16 @@ a {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -1rem;
+    margin: 5rem 0;
 }
 
 .col {
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-start;
     gap: 15px;
     flex: 1;
-    padding: 0 1rem;
+    padding: 1rem;
 }
 
 .col-2 {
@@ -236,12 +242,12 @@ header .container {
     height: 100%;
 }
 
-header .logo {
+#site-title {
     font-family: var(--typography-primary-font-family);
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 2rem;
-    color: var(--color-white);
+    color: var(--color-primary);
 }
 
 .main-nav ul {
@@ -309,7 +315,7 @@ nav .icon-burger .line {
 .hero {
     height: 700px;
     max-width: 100%;
-    background: url(./images/home-hero.webp),linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background: url(./images/home-hero.webp),linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
