@@ -1,3 +1,19 @@
+/* Default styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+:root {
+    --color-primary: #1D2F40;
+    --color-secondary: #A6587C;
+    --color-tertiary: #FFFFFF;
+    --color-grey01: #AAAAAA;
+    --color-grey02: #E1E1E1;
+    --color-grey03: #F0F0F0;
+    --color-primary-soft: #F0EEFF;
+    --color-orange: #FF754C;
+    --btn-hover: #7D405C;
+}
+
+
 
 /* Set default padding and marging */
 *{
