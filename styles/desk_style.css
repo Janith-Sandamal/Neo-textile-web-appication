@@ -329,9 +329,21 @@ nav .icon-burger .line {
     align-items: center;
 }
 
+.hero h5 {
+    color: var(--color-white);
+}
+
 .hero p{
     color: var(--color-white);
 }
+
+
+/* Vision Mission Section */
+
+.vision-mission > .col{
+    justify-content: center;
+}
+
 
 =======
 /* Footer Styles */
