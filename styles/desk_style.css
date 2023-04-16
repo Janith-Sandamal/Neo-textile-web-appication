@@ -41,10 +41,10 @@ h2 {
 
 h3 {
     font-family: var(--typography-primary-font-family);
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.5rem;
     line-height: 2rem;
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 h4 {
@@ -124,21 +124,6 @@ img {
     flex: 2;
 }
 
-.col-3 {
-    flex: 3;
-}
-
-.col-4 {
-    flex: 4;
-}
-
-.col-5 {
-    flex: 5;
-}
-
-.col-6 {
-    flex: 6;
-}
 
 
 /* Set default styles for buttons */
@@ -345,14 +330,75 @@ nav .icon-burger .line {
 }
 
 
-=======
+/* Jobs Page Styles */
+
+
+.hero-section {
+    height: 400px;
+    max-width: 100%;
+    background: url(./images/home-hero.webp),linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .col{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-section h1, .hero-section p{
+    text-align: center;
+}
+
+.hero-section p{
+    color: var(--color-white);
+}
+
+
+.job-card {
+    flex-direction: column;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.job-card:hover{
+    transform: scale(1.03);
+}
+
+
+.jt-1{
+    background: url(./images/marketing-manager.webp);
+}
+
+.jt-2{
+    background: url(./images/web-developer.webp);
+}
+
+.jt-3{
+    background: url(./images/Executives\ Manager.webp);
+}
+
+.jt-4{
+    background: url(./images/front-end\ developer.webp);
+}
+
+.job-thumbnail{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
 /* Footer Styles */
 
-footer {
-    position: fixed;
-    bottom: 0;
-  }
-  
   
   
   .footer-distributed {
