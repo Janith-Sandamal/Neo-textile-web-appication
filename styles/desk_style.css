@@ -94,6 +94,7 @@ ul , li {
     font-family: var(--typography-primary-font-family);
 }
 
+
 img {
     max-width: 100%;
     border-radius: 5px;
@@ -152,23 +153,42 @@ button:hover {
 
 /* Set default styles for forms */
 
+
+
 form {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 60%;
+}
+
+.form-container{
+    justify-content: center;
 }
 
 .form-control {
     margin-bottom: 1rem;
 }
 
-form label {
+form label, legend {
     font-family: var(--typography-primary-font-family);
-    font-weight: 700;
-    font-size: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
     line-height: 1.5rem;
-    color: var(--color-primary);
+    color: var(--color-secondary);
     margin-bottom: 0.5rem;
+    margin-top: 0.8rem;
+}
+
+fieldset {
+    padding: 1rem;
+    border:1px solid var(--color-text);
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.8rem;
+}
+
+fieldset label{
+    margin-right: 10px;
 }
 
 form input {
@@ -176,9 +196,9 @@ form input {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5rem;
-    color: var(--color-primary);
-    padding: 0.5rem 1rem;
-    border: 1px solid var(--color-grey01);
+    color: var(--color-secondary);
+    padding: .8rem 1rem;
+    border: 1px solid var(--color-text);
     border-radius: 0.25rem;
 }
 
@@ -188,7 +208,23 @@ form input:focus {
 }
 
 form input::placeholder {
-    color: var(--color-grey01);
+    color: var(--color-text);
+}
+
+form select {
+    font-family: var(--typography-primary-font-family);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--color-secondary);
+    padding: .8rem 1rem;
+    border: 1px solid var(--color-text);
+    border-radius: 0.25rem;
+}
+
+.checkbox-label {
+    margin-right: 10px;
+    font-weight: 500;
 }
 
 form textarea {
@@ -198,7 +234,7 @@ form textarea {
     line-height: 1.5rem;
     color: var(--color-primary);
     padding: 0.5rem 1rem;
-    border: 1px solid var(--color-grey01);
+    border: 1px solid var(--color-text);
     border-radius: 0.25rem;
 }
 
@@ -211,8 +247,20 @@ form textarea::placeholder {
     color: var(--color-grey01);
 }
 
-form button {
+form input[type="submit"] {
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    padding: 0.8rem 1.3rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+
+}
+
+form input[type="submit"]:hover {
+    background-color: var(--btn-hover);
 }
 
 

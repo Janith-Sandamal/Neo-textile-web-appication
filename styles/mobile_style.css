@@ -49,6 +49,11 @@
         .reversed-row{
             flex-direction: column-reverse;
         }
+
+        form {
+            width: 100%;
+        }
+        
         
         
     }
