@@ -49,10 +49,15 @@
         .reversed-row{
             flex-direction: column-reverse;
         }
+
+        form {
+            width: 100%;
+        }
+        
         
         
     }
-=======
+
 /* Navbar Mobile Responsive Script */
 
 @media screen and (max-width: 768px) {
