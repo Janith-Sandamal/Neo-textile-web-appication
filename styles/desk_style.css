@@ -667,7 +667,7 @@ nav .links li {
     display: none;
 }
 
-#skill5:checked + #otherSkillsWrapper{
+#otherSkillToggle:checked + #otherSkillsWrapper{
     display: block;
 }
 #otherSkillsWrapper {
