@@ -3,7 +3,7 @@
 
     /* Header section */
 
-    .logo a h3{
+    .logo a h3 {
         font-size: 29px;
     }
 
@@ -16,14 +16,39 @@
         flex-direction: column-reverse;
     }
 
+    header .container .col{
+        padding: 0;
+    }
+
+    header .container .col:last-child{
+        padding-left: 20px;
+    }
+    
+    
+
+
+    /* Form Style */
+
     form {
         width: 100%;
     }
 
+    /* Table style */
 
+    table th,
+    table td {
+        font-size: .75rem;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 880px) {
 
     /* Navbar Mobile Responsive Script */
-
 
     #desktop-menu {
         display: none;
@@ -56,21 +81,7 @@
         display: block;
     }
 
-    /* Table style */ 
-
-    table th, table td{
-        font-size: .75rem;
-    }
-
-
-
-}
-
-
-
-/* Footer section */
-
-@media (max-width: 880px) {
+    /* Footer section */
 
     .footer-distributed .footer-left,
     .footer-distributed .footer-center,
@@ -91,7 +102,5 @@
         position: static;
     }
 
-    header {
-        padding-top: 40px;
-    }
+
 }
