@@ -346,6 +346,18 @@ header .container .col:not(:first-child){
     
 }
 
+header .container .col:nth-child(1){
+    flex: 3;
+}
+
+header .container .col:nth-child(2){
+    flex: 6;
+}
+
+header .container .col:nth-child(3){
+    flex: 1;
+}
+
 .logo a h3{
     color: #ffffff;
     font: normal 36px 'Cookie', cursive;
