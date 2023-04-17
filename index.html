@@ -1,181 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link to the style.css stylesheet -->
-    <link rel="stylesheet" href="styles/style.css">
-    <!-- Responsive style sheet  -->
-    <link rel="stylesheet" href="styles/desktop_responsive.css">
-    <link rel="stylesheet" href="styles/mobile_responsive.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <title> Ceylon Textile Suppliers | Home </title>
+    <link rel="stylesheet" href="styles/desk_style.css">
+    <link rel="stylesheet" href="styles/mobile_style.css">
+    <title>Home</title>
 </head>
+
 <body>
-<!-- Header section  -->
 
-    <!-- Navbar -->
-    <nav>
-        <input id="nav-toggle" type="checkbox">
-        <div class="logo"><strong>Ceylon</strong> Textile Suppliers</div>
-        <ul class="links">
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="jobs.html">Jobs</a></li>
-            <li><a href="apply.html">Apply</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="enhancements.html">Contact</a></li>
-        </ul>
-        <label for="nav-toggle" class="icon-burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </label>
-    </nav>
-    
-    <!-- Navbar -->
-
-<!-- Header section  -->
-
-
-
-<!-- Home Banner -->
-<div class="slider">
-    <input type="radio" name="slide" id="slide-1" checked>
-    <input type="radio" name="slide" id="slide-2">
-    <input type="radio" name="slide" id="slide-3">
-    <input type="radio" name="slide" id="slide-4">
-
-    <div class="slides">
-        <div class="slide slide-1">
-            <div class="slide-data">
-                <h1>THIS IS SLIDE # 1</h1>
-                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam nemo assumenda perferendis
-                    reprehenderit ex nostrum accusantium sed iste eius distinctio mollitia consectetur, nihil quis
-                    ea cupiditate ullam itaque reiciendis ratione.</P>
-                <button>SUBSCRIBE</button>
+    <header>
+        <!-- header content goes here -->
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <h2 id="site-title">Ceylon Textile Suppliers
+                    </h2>
+                </a>
             </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <label class="hamburger-icon" for="toggle-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
         </div>
-        <div class="slide slide-2">
-            <div class="slide-data">
-                <h1>THIS IS SLIDE # 2</h1>
-                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam nemo assumenda perferendis
-                    reprehenderit ex nostrum accusantium sed iste eius distinctio mollitia consectetur, nihil quis
-                    ea cupiditate ullam itaque reiciendis ratione.</P>
-                <button>COMMENT</button>
-            </div>
-        </div>
-        <div class="slide slide-3">
-            <div class="slide-data">
-                <h1>THIS IS SLIDE # 3</h1>
-                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam nemo assumenda perferendis
-                    reprehenderit ex nostrum accusantium sed iste eius distinctio mollitia consectetur, nihil quis
-                    ea cupiditate ullam itaque reiciendis ratione.</P>
-                <button>SHARE</button>
-            </div>
-        </div>
-        <div class="slide slide-4">
-            <div class="slide-data">
-                <h1>THIS IS SLIDE # 3</h1>
-                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam nemo assumenda perferendis
-                    reprehenderit ex nostrum accusantium sed iste eius distinctio mollitia consectetur, nihil quis
-                    ea cupiditate ullam itaque reiciendis ratione.</P>
-                <button>SHARE</button>
-            </div>
+    </header>
+
+
+    <!-- main content goes here -->
+    <div class="hero">
+        <div class="container">
+            <main>
+                <div class="row">
+                    <div class="col">
+                        <h5>Since 2010</h5>
+                        <h1>Textilery Creating The Best Textile Solutions</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        </p>
+                        <button>Learn More</button>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+            </main>
         </div>
     </div>
 
-    <div class="arrows arrow-left">
-        <label for="slide-3">
-            <span><i class="fas fa-angle-left"></i></span>
-        </label>
-        <label for="slide-1">
-            <span><i class="fas fa-angle-left"></i></span>
-        </label>
-        <label for="slide-2">
-            <span><i class="fas fa-angle-left"></i></span>
-        </label>
     </div>
 
-    <div class="arrows arrow-right">
-        <label for="slide-2">
-            <span><i class="fas fa-angle-right"></i></span>
-        </label>
-        <label for="slide-3">
-            <span><i class="fas fa-angle-right"></i></span>
-        </label>
-        <label for="slide-1">
-            <span><i class="fas fa-angle-right"></i></span>
-        </label>
+
+    <div class="container">
+        <aside>
+            <div class="row reversed-row">
+                <div class="col">
+                    <img src="/images/Home-section-2.jpg">
+                </div>
+                <div class="col">
+                    <h5>About Textile</h5>
+                    <h2>We Provide The Best Textile Industry Since 2005</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit fusce, volutpat dui gravida dapibus
+                        quisque pharetra facilisis fringilla, sed felis pellentesque metus a dignissim nam. Eu est arcu
+                        sagittis sapien ultricies hac felis, enim fermentum montes etiam natoque tempus, facilisis
+                        integer in imperdiet rutrum ullamcorper. Proin dapibus cras velit ridiculus ornare, eget class
+                        maecenas porttitor purus vehicula, vivamus luctus et odio.
+                        <br><br>
+                        Mattis tempus enim magnis sociosqu feugiat nullam vitae tellus et consequat, curabitur nec
+                        fermentum risus vivamus elementum interdum sollicitudin magna euismod eleifend, maecenas porta
+                        donec quam ridiculus accumsan vehicula purus vestibulum. Taciti dui aptent porta dapibus
+                        lobortis ut quam tellus hac ligula, vel cum faucibus purus justo pellentesque sagittis magnis
+                        sodales, lacus interdum in curae nunc libero quisque laoreet enim. Vestibulum dictumst ut neque
+                        bibendum elementum sociis facilisi consequat, sed augue vitae faucibus suscipit molestie
+                        natoque, suspendisse facilisis habitant fringilla lobortis rhoncus euismod.
+                    </p>
+                    <button>Learn More</button>
+                </div>
+
+            </div>
+
+            <div class="row vision-mission">
+                <div class="col vision">
+                    <H2>Vision</H2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit dictumst inceptos, aliquam quam id
+                        porttitor potenti et egestas ridiculus vestibulum, rutrum convallis torquent scelerisque
+                        senectus lacus sagittis suspendisse. Imperdiet penatibus netus bibendum mauris cursus molestie
+                        sem, natoque facilisi leo blandit dui pharetra, nisl sagittis vestibulum sollicitudin id nostra.
+                        Magna parturient curabitur consequat litora hendrerit porta sapien primis sed, sollicitudin erat
+                        iaculis dapibus ornare sagittis natoque auctor quis, turpis senectus dictum fermentum vestibulum
+                        maecenas urna justo.
+
+
+                    </p>
+                </div>
+
+                <div class="col mission">
+                    <H2>Mission</H2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit dictumst inceptos, aliquam quam id
+                        porttitor potenti et egestas ridiculus vestibulum, rutrum convallis torquent scelerisque
+                        senectus lacus sagittis suspendisse. Imperdiet penatibus netus bibendum mauris cursus molestie
+                        sem, natoque facilisi leo blandit dui pharetra, nisl sagittis vestibulum sollicitudin id nostra.
+                        Magna parturient curabitur consequat litora hendrerit porta sapien primis sed, sollicitudin erat
+                        iaculis dapibus ornare sagittis natoque auctor quis, turpis senectus dictum fermentum vestibulum
+                        maecenas urna justo.
+
+
+                    </p>
+                </div>
+            </div>
+
+        </aside>
     </div>
 
-    <div class="dots">
-        <label for="slide-1"></label>
-        <label for="slide-2"></label>
-        <label for="slide-3"></label>
-    </div>
-</div>
-<!-- Home Banner -->
+    <footer>
+        <!-- Footer section  -->
 
+        <section class="footer-distributed">
+            <footer class="footer-distributed">
 
+                <div class="footer-left">
+                    <h3>Ceylone<span>Textile</span></h3>
 
+                    <p class="footer-links">
+                        <a href="#">Home</a>
+                        |
+                        <a href="about.html">About</a>
+                        |
+                        <a href="enhancements.html">Contact</a>
+                        |
+                        <a href="apply.html">Jobs</a>
+                    </p>
 
-<!-- Footer section  -->
+                    <p class="footer-company-name">Copyright © 2023 <strong>Ceylone Textile Suppliers</strong> All
+                        rights reserved</p>
+                </div>
 
-<section class="footer-distributed">
-    <footer class="footer-distributed">
+                <div class="footer-center">
+                    <div>
+                        <i><img src="images/map-pin.svg" alt="map-pin"></i>
+                        <p><span>Newzelend</span>
+                            Awecklend</p>
+                    </div>
 
-        <div class="footer-left">
-            <h3>Ceylone<span>Textile</span></h3>
+                    <div>
+                        <i><img src="images/phone-call.svg" alt="phone-call"></i>
+                        <p>+91 7445978258</p>
+                    </div>
+                    <div>
+                        <i><img src="images/mail.svg" alt="mail"></i>
+                        <p><a href="mailto:ceylonetextile@gmail.com">ceylonetextile@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <p class="footer-company-about">
+                        <span>About the company</span>
+                        <strong>Ceylon Textile Suppliers</strong> , an Australian owned organization based in Melbourne
+                        which supplies clothing
+                        related products to Australian and New Zealand retail outlets on a sale or return basis
+                    </p>
+                    <div class="footer-icons">
+                        <a href="#"><img src="images/facebook.svg" alt="facebook"></i></a>
+                        <a href="#"><img src="images/twitter.svg" alt="twitter"></i></a>
+                        <a href="#"><img src="images/instagram.svg" alt="instagram"></i></a>
+                        <a href="#"><img src="images/linkedin.svg" alt="linkedin"></i></a>
+                        <a href="#"><img src="images/youtube.svg" alt="youtube"></i></a>
+                    </div>
+                </div>
+            </footer>
 
-            <p class="footer-links">
-                <a href="#">Home</a>
-                |
-                <a href="about.html">About</a>
-                |
-                <a href="enhancements.html">Contact</a>
-                |
-                <a href="apply.html">Jobs</a>
-            </p>
-
-            <p class="footer-company-name">Copyright © 2023 <strong>Ceylone Textile Suppliers</strong> All rights reserved</p>
-        </div>
-
-        <div class="footer-center">
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>Newzelend</span>
-                    Awecklend</p>
-            </div>
-
-            <div>
-                <i class="fa fa-phone"></i>
-                <p>+91 7445978258</p>
-            </div>
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:contact.ceylonetextileshop@gmail.com">contact.ceylonetextileshop@gmail.com</a></p>
-            </div>
-        </div>
-        <div class="footer-right">
-            <p class="footer-company-about">
-                <span>About the company</span>
-                <strong>Ceylon Textile Suppliers</strong> , an Australian owned organization based in Melbourne which supplies clothing 
-                related products to Australian and New Zealand retail outlets on a sale or return basis
-            </p>
-            <div class="footer-icons">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-youtube"></i></a>
-            </div>
-        </div>
+        </section>
+        <!-- Footer section  -->
     </footer>
 
-</section>
-<!-- Footer section  -->
-
 </body>
+
 </html>
