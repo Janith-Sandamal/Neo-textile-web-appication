@@ -94,6 +94,35 @@ ul , li {
     font-family: var(--typography-primary-font-family);
 }
 
+dt ,dl {
+    font-family: var(--typography-primary-font-family);
+    font-size: 1 rem;
+}
+
+dt {
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figurecaption {
+    font-family: var(--typography-primary-font-family);
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+}
+
+caption {
+    font-family: var(--typography-primary-font-family);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
 img {
     max-width: 100%;
@@ -263,6 +292,36 @@ form input[type="submit"]:hover {
     background-color: var(--btn-hover);
 }
 
+/* Set default styles for Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 1rem;
+}
+
+table th {
+    font-family: var(--typography-primary-font-family);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--color-secondary);
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid var(--color-text);
+}   
+
+table td {
+    font-family: var(--typography-primary-font-family);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--color-secondary);
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid var(--color-text);
+}
 
 
 /* Header Section */
@@ -478,6 +537,31 @@ nav .icon-burger .line {
     padding: 0.7rem 2rem;
 
 }
+
+
+/* About page styles */
+
+.about-col {
+    flex-direction: column;
+}
+
+.my-details  {
+    margin: 1rem .5rem;
+}
+
+.about-text {
+    color: var(--color-black);
+}
+
+
+.table-row-1 {
+    margin: 5rem 0 0 0;
+}
+
+.table-row-2 {
+    margin: 0 0 5rem 0;
+}
+
 /* Footer Styles */
 
   
