@@ -7,7 +7,7 @@
     --color-secondary: #2d2a30;
     --color-white: #FFFFFF;
     --color-black: #000000;
-    --color-text: #758994;
+    --color-text: #2d2a30;
     --btn-hover: #be8c00;
     --typography-primary-font-family: 'Poppins', sans-serif;
 }
@@ -341,7 +341,7 @@ header .container {
     height: 100%;
 }
 
-header .container .col:nth-child(2){
+header .container .col:not(:first-child){
     justify-content: flex-end;
     
 }
