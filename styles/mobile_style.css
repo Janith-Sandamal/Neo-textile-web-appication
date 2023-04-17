@@ -3,9 +3,8 @@
 
     /* Header section */
 
-    header .container .col:nth-child(1){
-        flex: 8;
-        
+    .logo a h3{
+        font-size: 29px;
     }
 
 
