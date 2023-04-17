@@ -39,7 +39,7 @@
                             <li><a href="index.html">Home</a></li>
                             <li><a href="jobs.html">Jobs</a></li>
                             <li><a href="apply.html" class="active">Apply</a></li>
-                            <li><a href="about.html">About</a></li>  
+                            <li><a href="about.html">About</a></li>
                             <li><a href="enhancements.html">Enhancements</a></li>
                         </ul>
                     </div>
@@ -63,13 +63,13 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container ">
         <main>
             <div class="row">
                 <div class="col form-container">
 
-                    <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
+                    <form action="http://mercury.swin.edu.au/it000000/cos10005/surveytest.php" method="post">
                         <label for="jobRef">Job reference number:</label>
                         <input type="text" id="jobRef" name="jobRef" maxlength="5" pattern="[a-zA-Z0-9]{5}" required>
 
@@ -81,8 +81,9 @@
                         <input type="text" id="lastName" name="lastName" maxlength="20" pattern="[a-zA-Z ]{1,20}"
                             required>
 
-                        <label for="dob">Date of birth:</label>
-                        <input type="date" id="dob" name="dob" required>
+                        <label for="date-of-birth">Date of birth:</label>
+                        <input type="text" id="date-of-birth" name="date-of-birth" placeholder="dd/mm/yyyy"
+                            maxlength="10" pattern="\d{1,2}/\d{1,2}/\d{4}" required>
 
                         <fieldset>
                             <legend>Gender:</legend>
@@ -121,16 +122,29 @@
 
                         <label for="skills">Skills:</label>
 
-                        <label class="checkbox-label"><input type="checkbox" id="skills" name="skills" value="html"> HTML</label>
-                        <label class="checkbox-label"><input type="checkbox" name="skills" value="css"> CSS</label>
-                        <label class="checkbox-label"><input type="checkbox" name="skills" value="javascript">
-                            JavaScript</label>
-                        <label class="checkbox-label"><input type="checkbox" name="skills" value="php"> PHP</label>
-                        <label class="checkbox-label"><input type="checkbox" name="skills" value="other"> Other
-                            skills...</label>
+                        <fieldset id="skills">
+                            <ul>
+                                <li><input type="checkbox" id="skill1" name="skill1" value="HTML"><label
+                                        for="skill1">HTML</label></li>
+                                <li><input type="checkbox" id="skill2" name="skill2" value="CSS"><label
+                                        for="skill2">CSS</label></li>
+                                <li><input type="checkbox" id="skill3" name="skill3" value="JavaScript"><label
+                                        for="skill3">JavaScript</label></li>
+                                <li><input type="checkbox" id="skill4" name="skill4" value="PHP"><label
+                                        for="skill4">PHP</label></li>
+                                <li><label for="skill5">Other skills...</label><input type="checkbox" id="skill5"
+                                        name="skill5" value="Other">
+                                    <div id="otherSkillsWrapper">
+                                        <textarea id="otherSkills" name="otherSkills" rows="2"></textarea>
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </fieldset>
 
                         <label for="comment">Comment:</label>
-                        <textarea id="comment" name="comment"></textarea>
+                        <textarea id="comment" name="comment" rows="4"></textarea>
 
                         <input type="submit" value="Apply">
                     </form>

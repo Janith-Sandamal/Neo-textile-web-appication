@@ -341,10 +341,11 @@ form textarea {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5rem;
-    color: var(--color-primary);
+    color: var(--color-secondary);
     padding: 0.5rem 1rem;
     border: 1px solid var(--color-text);
     border-radius: 0.25rem;
+    width: 100%;
 }
 
 form textarea:focus {
@@ -646,7 +647,37 @@ nav .links li {
 }
 
 
+/* Apply page styles */
 
+#skills {
+    border: 0;
+    padding: 0;
+}
+
+#skills ul {
+    list-style:none;
+}
+
+
+#skills ul label{
+    margin-left: 10px;
+}
+
+#otherSkillsWrapper {
+    display: none;
+}
+
+#skill5:checked + #otherSkillsWrapper{
+    display: block;
+}
+#otherSkillsWrapper {
+    display: none; /* hide the text area by default */
+  }
+  
+#skill5:checked + #otherSkillsWrapper {
+    display: block; /* show the text area when the checkbox is checked */
+}
+  
 /* About page styles */
 
 .my-details {
