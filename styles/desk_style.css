@@ -79,6 +79,7 @@ p {
     font-size: 1rem;
     line-height: 1.5rem;
     color: var(--color-text);
+    
 }
 
 a {
@@ -88,6 +89,10 @@ a {
     font-size: 1rem;
     line-height: 1.5rem;
     color: var(--color-primary);
+}
+
+.long-link{
+    word-break: break-all;
 }
 
 ul , li {
@@ -127,8 +132,29 @@ caption {
 img {
     max-width: 100%;
     border-radius: 5px;
+    animation-name: image-grow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+@keyframes image-grow {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 /* Set default styles for layout */
 
@@ -143,6 +169,10 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin: 5rem 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 .col {
@@ -152,10 +182,26 @@ img {
     gap: 15px;
     flex: 1;
     padding: 1rem;
+   
 }
 
-.col-2 {
-    flex: 2;
+.col-down {
+    flex-direction: column;
+}
+
+/* Pages hero section style */
+
+.hero-section {
+    height: 400px;
+    max-width: 100%;
+    background: url(./images/home-hero.webp),linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -411,8 +457,6 @@ nav .links li {
 }
 
 
-
-
 #mobile-menu li a{
     color: var(--color-white);
 }
@@ -421,7 +465,7 @@ nav .links li {
     color: var(--color-primary);
 }
 
-/* Hero Section */
+/* Home page style */
 
 .hero {
     height: 700px;
@@ -454,19 +498,6 @@ nav .links li {
 
 /* Jobs Page Styles */
 
-
-.hero-section {
-    height: 400px;
-    max-width: 100%;
-    background: url(./images/home-hero.webp),linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
-    background-blend-mode: overlay;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .hero-section .col{
     flex-direction: column;
@@ -576,14 +607,7 @@ nav .links li {
 
 
 
-
-
-
 /* About page styles */
-
-.about-col {
-    flex-direction: column;
-}
 
 .my-details  {
     margin: 1rem .5rem;
@@ -601,6 +625,9 @@ nav .links li {
 .table-row-2 {
     margin: 0 0 5rem 0;
 }
+
+
+
 
 /* Footer Styles */
 
