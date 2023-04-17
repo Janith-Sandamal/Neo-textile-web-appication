@@ -208,7 +208,7 @@ img {
 
 /* Set default styles for buttons */
 
-button {
+.button {
     font-family: var(--typography-primary-font-family);
     font-weight: 500;
     font-size: 1rem;
@@ -219,9 +219,12 @@ button {
     padding: 0.7rem 1.3rem;
     border-radius: 0.25rem;
     cursor: pointer;
+    text-align: center;
+    display: block;
+    width: fit-content;
 }
 
-button:hover {
+.button:hover {
     background-color: var(--btn-hover);
 }
 
@@ -437,13 +440,18 @@ nav .links li {
     display: none;
 }
 
-#desktop-menu li a{
+#desktop-menu li a, #mobile-menu li a{
     color: var(--color-white);
 }
 
-#desktop-menu li a:hover{
+#desktop-menu li a:hover, #mobile-menu li a:hover{
     color: var(--color-primary);
 }
+
+#desktop-menu li a.active, #mobile-menu li a.active{
+    color: var(--color-primary);
+}
+
 
 #mobile-menu {
     position: absolute;
@@ -456,14 +464,6 @@ nav .links li {
   
 }
 
-
-#mobile-menu li a{
-    color: var(--color-white);
-}
-
-#mobile-menu li a:hover {
-    color: var(--color-primary);
-}
 
 /* Home page style */
 
@@ -548,7 +548,7 @@ nav .links li {
     transform: scale(1.03);
 }
 
-.job-card button {
+.job-card .button {
     width: 100%;
 }
 
@@ -599,7 +599,7 @@ nav .links li {
     margin: 1rem 0;
 }
 
-.job-content button{
+.job-content .button{
     margin-top: 1rem;
     padding: 0.7rem 2rem;
 
@@ -771,10 +771,11 @@ nav .links li {
     line-height: 45px;
     margin-right: 3px;
     margin-bottom: 5px;
+    border-radius: 5px;
   }
   
   .footer-distributed .footer-icons a:hover {
-    background-color: #3F71EA;
+    background-color: var(--color-white);
   }
   
   .footer-links a:hover {
