@@ -341,12 +341,20 @@ header .container {
     height: 100%;
 }
 
-#site-title {
-    font-family: var(--typography-primary-font-family);
-    font-weight: 700;
-    font-size: 1.5rem;
-    line-height: 2rem;
+header .container .col:nth-child(2){
+    justify-content: flex-end;
+    
+}
+
+.logo a h3{
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+.logo span{
     color: var(--color-primary);
+
 }
 
 .main-nav ul {
@@ -362,53 +370,44 @@ header .container {
     margin: 0 1rem;
 }
 
-.nav .links {
-    float: right;
-    padding: 0;
-    margin: 0;
-    width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 nav .links li {
     list-style: none;
 }
 
-nav .links a {
-    display: block;
-    padding: 1em;
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
-}
 
-#nav-toggle {
-    position: absolute;
-    top: -100px;
-}
-
-nav .icon-burger {
+.hamburger, #mobile-menu {
     display: none;
+}
+
+#desktop-menu li a{
+    color: var(--color-white);
+}
+
+#desktop-menu li a:hover{
+    color: var(--color-primary);
+}
+
+#mobile-menu {
     position: absolute;
-    right: 5%;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-nav .icon-burger .line {
-    width: 30px;
-    height: 5px;
-    background-color: #fff;
-    margin: 5px;
-    border-radius: 3px;
-    transition: all .3s ease-in-out;
+    width: 100%;
+    top: 100px;
+    left: 0;
+    background-color: var(--color-secondary);
+    padding: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  
 }
 
 
+
+
+#mobile-menu li a{
+    color: var(--color-white);
+}
+
+#mobile-menu li a:hover {
+    color: var(--color-primary);
+}
 
 /* Hero Section */
 
