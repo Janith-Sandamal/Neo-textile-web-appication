@@ -1,4 +1,5 @@
-# TP1-2023-COS10024-Web-Development-Assignment-1
+# Thaprobona-textile-web-appication
+
 
 <h2>Home Page Hero Section</h2>
 <img src="https://user-images.githubusercontent.com/78975250/233787633-6f028738-000b-405b-90bb-33f18c6355f3.png" >
