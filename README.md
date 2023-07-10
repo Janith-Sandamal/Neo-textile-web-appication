@@ -1,4 +1,4 @@
-# Thaprobona-textile-web-appication
+# Neo-textile-web-appication
 
 
 <h2>Home Page Hero Section</h2>
