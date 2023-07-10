@@ -14,7 +14,8 @@
 
 
 <h2>Footer</h2>
-<img src="https://user-images.githubusercontent.com/78975250/233787755-6994c9d8-1686-4b28-a296-4541d2dd254f.png" >
+<img src="https://github.com/Janith-Sandamal/Neo-textile-web-appication/assets/78975250/4badbcf9-cf74-485c-9402-dfc73c7d10d0" >
+
 
 
 
