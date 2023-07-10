@@ -8,11 +8,14 @@
 
 
 <h2>Navbar</h2>
-<img src="https://user-images.githubusercontent.com/78975250/233787685-57d5a80f-2be0-4042-957b-a65a4c78f561.png" >
+<img src="https://github.com/Janith-Sandamal/Neo-textile-web-appication/assets/78975250/e9e5a697-3965-4111-b538-7fc58e7f46cd" >
+
+
 
 
 <h2>Footer</h2>
 <img src="https://user-images.githubusercontent.com/78975250/233787755-6994c9d8-1686-4b28-a296-4541d2dd254f.png" >
+
 
 
 
