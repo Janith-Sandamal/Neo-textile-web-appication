@@ -2,7 +2,8 @@
 
 
 <h2>Home Page Hero Section</h2>
-<img src="https://user-images.githubusercontent.com/78975250/233787633-6f028738-000b-405b-90bb-33f18c6355f3.png" >
+<img src="https://github.com/Janith-Sandamal/Neo-textile-web-appication/assets/78975250/658d6dd0-6968-4dac-b34c-780b3e6b1fe8" >
+
 
 
 
